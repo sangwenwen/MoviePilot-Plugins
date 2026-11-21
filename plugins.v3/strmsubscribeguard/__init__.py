@@ -38,6 +38,13 @@ class StrmSubscribeGuard(_PluginBase):
     def get_state(self) -> bool:
         return True
 
+    @staticmethod
+    def get_command() -> List[Dict[str, Any]]:
+        return []
+
+    def get_api(self) -> List[Dict[str, Any]]:
+        return []
+
     def get_form(self) -> Tuple[List[dict], Dict[str, Any]]:
         return [
             {

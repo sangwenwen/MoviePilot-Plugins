@@ -1,0 +1,16 @@
+{
+  "StrmSubscribeGuard": {
+    "name": "STRM 订阅隔离",
+    "description": "整理 strm 到 strmlink 库时，不把集数写进订阅账本，避免订阅被误判完成。订阅完成度只按真实文件（link 库）判定。",
+    "labels": "订阅",
+    "version": "1.0.0",
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot/main/app/static/img/logo.png",
+    "author": "Wen",
+    "level": 1,
+    "v2": true,
+    "v3": true,
+    "history": {
+      "v1.0.0": "初始版本：接管整理入库事件处理，strm 整理不写订阅账本"
+    }
+  }
+}
